@@ -1,0 +1,28 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Cree un archivo HTML simple con una etiqueta h1 y una P.
+Cree un archivo CSS y escriba una regla que le dé el color 'azul' al texto h1.
+Escribe una regla que dé el color "gris claro" al fondo del cuerpo.
+Escribe una regla que dé un tamaño de fuente de 20 píxeles a la etiqueta p.
+Escribe una regla que dé Arial, sans-serif como familia de fuentes para todos los textos */
