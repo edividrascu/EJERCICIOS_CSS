@@ -1,0 +1,64 @@
+.calculadora{
+    display: grid;
+    border: 1px #424C52 solid ;
+    border-radius: 5px;
+    width: 200px;
+    height: 180px;
+    
+}
+.opercaiones{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+    
+}
+.divisor{
+    border: 1px #424C52 solid;
+    background-color: #D2DCE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* problemasss seguro sea una tonteria pero si le quiero aplicar un paddin al sero se le aplica el padding a todos el contenido de operaciones */
+#sero {
+    justify-content: end;
+    background-color: #424C52;
+    grid-row: 1;
+    grid-column: 1 / -1; 
+    color: white;
+    padding-right: 3px;
+    /* padding: 50px 2px 0;  */
+    
+}
+
+
+
+.numeros{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    
+}
+
+.number{
+    border: 1px #424C52 solid;
+    background-color: #EEF2F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#igual{
+    background-color: #F77077;
+    grid-column: 4;
+    grid-row: 1/5;
+    
+}
+
+/* practicado nth */
+ .number:nth-child(odd) {
+    background-color: #F77077; 
+}
+
+.number:nth-child(even) {
+    background-color: #424C52; 
+}
