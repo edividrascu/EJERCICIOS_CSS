@@ -1,0 +1,153 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(167, 136, 136);
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    z-index: 2;
+    position: sticky;
+    max-height: 25PX;
+    width: 100%;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+    border-bottom: 2px #fff solid;
+}
+
+/* Estilo para el título del Navbar */
+.textNavbar {
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* Estilo para los enlaces de navegación */
+.nav1{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+.nav2{
+    text-decoration: none;
+    color: #9B9D9F;
+    margin: 10px;
+}
+
+/* Estilo para el menú desplegable */
+.select {
+    background-color: transparent;
+    color:#9B9D9F;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* Estilo para los botones */
+.botonDisabled{
+    margin: 10px;
+    margin-right:4rem ;
+    font-size: 15px;
+    color: #595B5F;
+    cursor: not-allowed;
+    border: none;
+    background-color: transparent;
+}
+.form{
+    display: flex;
+
+}
+.botonSearch {
+    background-color: #555;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    margin-right: 30px;
+}
+
+/* Estilo para la barra de búsqueda */
+.search {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+/* Estilo para el botón de búsqueda */
+.botonSearch {
+    background-color: #212529;
+    color: #1b8654;
+    border: 1px solid #1b8654;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+}
+
+/* Cambiar el color del botón de búsqueda al pasar el mouse sobre él */
+.botonSearch:hover {
+    background-color: rgb(223, 156, 55);
+}
+
+
+.hamburg{
+    position: absolute;
+    top: 0;
+}
+.menu-icon {
+    font-size: 30px;
+    color: #333;
+    cursor: pointer; 
+    
+}
+.menu.visible {
+    display: flex;
+}
+.menu {
+    z-index: 333;
+    margin: 0;
+    padding: 0;
+    display: none; 
+    position: absolute;
+    top: 30px; 
+    left: 40px;
+    width: 250px;
+    background-color: #212529;
+    
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ 
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    
+}     
+   
+@media (min-width: 768px) {
+    .hamburg {
+        display: none;
+    }
+    
+}    
+
+    
