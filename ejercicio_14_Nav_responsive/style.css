@@ -133,8 +133,13 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
-
+.hamburg .form{
+    margin-left: 10px;
+}
+.hamburg .botonDisabled{
+    margin-left: 60px;
+}
+/* IMPORTANT el js si es verdad que lo hice con el chatgpt por que la verdad que poc se de js  */
  
 @media (max-width: 768px) {
     .navbar {
@@ -142,7 +147,7 @@ body {
     }
     
 }     
-   
+
 @media (min-width: 768px) {
     .hamburg {
         display: none;
