@@ -117,7 +117,7 @@ body {
     position: absolute;
     top: 30px; 
     left: 40px;
-    width: 250px;
+    width: 270px;
     background-color: #212529;
     
     flex-direction: column;
@@ -140,7 +140,7 @@ body {
     margin-left: 60px;
 }
 /* IMPORTANT el js si es verdad que lo hice con el chatgpt por que la verdad que poc se de js  */
- 
+
 @media (max-width: 768px) {
     .navbar {
         display: none;
